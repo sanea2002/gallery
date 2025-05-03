@@ -1,0 +1,24 @@
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    width: max-content;
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    li::after {
+        display: block;
+        content: '';
+        background: #666;
+        border-radius: 50px;
+        width: 5px;
+        height: 5px;
+    }
+}
